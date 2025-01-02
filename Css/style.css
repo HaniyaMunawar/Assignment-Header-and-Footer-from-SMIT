@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header {
+  background-color: black;
+  opacity: 0.8;
+  height: 100px;
+}
+.logo > img {
+  width: 150px;
+  height: 100px;
+  margin-left: 60px;
+}
+.nav-links {
+  float: right;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.nav-links > ul > li > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+.nav-links > ul > li > a:hover {
+  border-bottom: 1px solid yellowgreen;
+}
+.nav-links > ul > li {
+  display: inline-block;
+}
+.nav-links > ul > li > button {
+  border: none;
+  margin-right: 30px;
+  font-size: 18px;
+  height: 30px;
+}
+.nav-links > ul > li > button:hover {
+  background-color: greenyellow;
+}
+.nav-links > ul > li > img {
+  height: 20px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(26, 26, 26);
+  height: 340px;
+}
+.logo1 > img {
+  width: 150px;
+  height: 100px;
+  margin-left: 90px;
+}
+.para > p {
+  color: white;
+  margin-left: 90px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  line-height: 30px;
+}
+.links {
+  color: white;
+  padding: 50px;
+  float: right;
+  text-align: justify;
+}
+.links > table {
+  border-left: white solid 1px;
+  padding: 50px;
+}
+.countries {
+  color: white;
+  padding: 50px;
+  float: right;
+  text-align: justify;
+}
+.countries > table {
+  border-left: white solid 1px;
+  padding: 50px;
+}
+th {
+  padding: 4px;
+  cursor: pointer;
+}
+.info {
+  border-top: 1px solid white;
+  height: 65px;
+  width: 96%;
+  margin: auto;
+}
+.info > .num,
+.email > p {
+  color: white;
+  float: left;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.social-icons > a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: grey;
+}
+.policy {
+  float: right;
+  color: white;
+  font-size: 18px;
+  margin-top: -20px;
+}
